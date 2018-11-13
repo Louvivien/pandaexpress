@@ -1,0 +1,136 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+    -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.nowrap  { 
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 50%;
+  height: 350px;
+  margin: 10px;
+  text-align: center;
+  overflow-wrap: normal;
+  font-size: 2em;
+}
+
+
+
+
+
+span {
+color: red;
+}
+
+
+
+
+
+
+
+  main {
+
+  		
+  		padding-bottom: 50px;
+
+  }
+
+
+.img-right {
+    background: url('./largepanda.png');
+    background-repeat: no-repeat;
+}
+
+.img-right:hover {
+    background: url('./shy.png');
+   background-repeat: no-repeat;
+
+}
+
+
+.button {
+
+    background: rgb(231,13,13);
+
+    position: absolute;
+    left: 43%;
+
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
+.button:hover {
+
+    background: black;
+
+    position: absolute;
+    left: 43%;
+
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+
+
+
+.title { text-align: center } 
+
+
+
+
+/*https://css-tricks.com/almanac/properties/f/flex-wrap/
+one line container
+
+*/
+
+
+
+
+
+
+
