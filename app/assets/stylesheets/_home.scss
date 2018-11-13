@@ -50,12 +50,14 @@ color: red;
 
 
 .img-right {
-    background: url('./largepanda.png');
+    background-image: image-url('largepanda.png');
     background-repeat: no-repeat;
 }
 
+
+
 .img-right:hover {
-    background: url('./shy.png');
+    background-image: image-url('shy.png');
    background-repeat: no-repeat;
 
 }
