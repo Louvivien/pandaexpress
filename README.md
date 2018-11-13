@@ -11,4 +11,4 @@ Vous trouverez l'application hébergée sur Heroku au lien suivant : https://pan
 Le projet
 Panda express
 La team
-Ce programme est made in Station F by V. Richaud avec amour ! Bonne correction les amis 😘
+Ce programme est made in Station F by P. de la Tour & F. Pinto & A. Reau & C. Avronsart & L. Martin du Nord & V. Richaud avec amour ! Bonne correction les amis 😘
